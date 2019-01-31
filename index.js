@@ -1,5 +1,5 @@
-const server = require('./api/server.js');
+const server = require("./api/server.js");
 
 server.listen(9000, () => {
-    console.log("\n** server up on port 9000 **\n");
-}) 
+  console.log("\n** server up on port 9000 **\n");
+});
